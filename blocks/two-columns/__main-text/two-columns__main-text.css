@@ -1,0 +1,10 @@
+.two-columns__main-text {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 80%;
+}

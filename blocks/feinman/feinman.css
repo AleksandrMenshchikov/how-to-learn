@@ -1,0 +1,11 @@
+@import './__image/feinman__image.css';
+@import './__title/feinman__title.css';
+@import './__subtitle/feinman__subtitle.css';
+@import './__link/feinman__link.css';
+
+.feinman {
+  background-color: #F2F2F2;
+  position: relative;
+  height: 790px;
+  padding-bottom: 100px;
+}

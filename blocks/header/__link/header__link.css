@@ -1,0 +1,28 @@
+.header__link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #2F80ED;
+  width: fit-content;
+  transition: all .3s ease-in-out;
+}
+
+.header__link::after {
+  position: absolute;
+  bottom: 1px;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #2F80ED;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+
+.header__link:hover::after{
+  opacity: .7;
+}
+
+.header__link:hover{
+  opacity: .7;
+}

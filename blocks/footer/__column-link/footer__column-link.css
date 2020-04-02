@@ -9,7 +9,10 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
@@ -22,6 +25,7 @@
   width: 100%;
   background-color: white;
   opacity: 0;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 

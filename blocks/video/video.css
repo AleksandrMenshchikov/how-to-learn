@@ -1,0 +1,15 @@
+@import "./__iframes/video__iframes.css";
+@import "./__iframe/video__iframe.css";
+
+.video {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}

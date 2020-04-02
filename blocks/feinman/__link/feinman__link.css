@@ -1,13 +1,16 @@
 .feinman__link {
   position: absolute;
-  top: 50%;
+  top: 44%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
   text-decoration: none;
   color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
 }
 
@@ -20,6 +23,7 @@
   width: 100%;
   background-color: black;
   opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
 }
 

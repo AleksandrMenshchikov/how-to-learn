@@ -3,7 +3,10 @@
   display: inline-block;
   text-decoration: none;
   color: #2F80ED;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
@@ -16,6 +19,7 @@
   width: 100%;
   background-color: #2F80ED;
   opacity: 0;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 

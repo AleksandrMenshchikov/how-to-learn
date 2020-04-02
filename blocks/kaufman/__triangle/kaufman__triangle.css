@@ -1,5 +1,31 @@
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 .kaufman__triangle {
   position: absolute;
   top: 0;
   right: -210px;
+  -webkit-animation: rotation 20s linear 0s infinite;
+  animation: rotation 20s linear 0s infinite;
 }

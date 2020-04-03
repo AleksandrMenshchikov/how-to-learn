@@ -4,6 +4,12 @@
   display: block;
   -webkit-transition: background-color 0.2s linear;
   transition: background-color 0.2s linear;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 .resources__logo:hover {

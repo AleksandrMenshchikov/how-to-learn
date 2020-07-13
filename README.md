@@ -5,4 +5,4 @@
 * **Цель работы:** Получение практических навыков верстки ститической страницы.
 * **Применяемые технологии:** HTML, CSS.
 * **Структура сборки проекта:** БЭМ.
-* **Ссылка на сайт:** https://github.com/AleksandrMenshchikov/how-to-learn/index.html
+* **Ссылка на сайт:** https://aleksandrmenshchikov.github.io/how-to-learn/
